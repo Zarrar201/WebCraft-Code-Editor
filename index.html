@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCraft Code Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WebCraft Code Editor</h1>
+            <select id="language-select">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </select>
+        </header>
+        <main>
+            <div class="editor-container">
+                <textarea id="code-input" spellcheck="false" placeholder="Write your code here..."></textarea>
+                <pre><code id="code-output"></code></pre>
+            </div>
+
+            <!-- Live Preview for HTML and CSS -->
+            <div id="html-preview" class="preview"></div>
+            <div id="css-output" class="preview">CSS preview</div>
+        </main>
+        <footer>
+            <button id="run-btn">Run Code</button>
+            <div id="output"></div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
