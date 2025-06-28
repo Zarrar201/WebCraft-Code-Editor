@@ -9,4 +9,4 @@ Customizable dark/light themes.
 Optional real-time collaboration mode.
 100% client-side — no backend required.
 
-# For any queries please contact tazeemrahman88@gmail.com.
+For any queries please contact tazeemrahman88@gmail.com.
